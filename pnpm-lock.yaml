@@ -1,0 +1,34 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  bai-utils:
+    specifier: ^1.0.1
+    version: 1.0.1
+  dayjs:
+    specifier: ^1.11.10
+    version: 1.11.10
+
+devDependencies:
+  typescript:
+    specifier: ^5.4.5
+    version: 5.4.5
+
+packages:
+
+  /bai-utils@1.0.1:
+    resolution: {integrity: sha512-sTPgAfo17ck7uR9ZVHU2ImtwyRPWAdA4MTSgcr2cuOvbwTUTeKRX4WE/BtkBcKmIXEN+sMWV1k4ohenPc+rAGw==}
+    dev: false
+
+  /dayjs@1.11.10:
+    resolution: {integrity: sha512-vjAczensTgRcqDERK0SR2XMwsF/tSvnvlv6VcF2GIhg6Sx4yOIt/irsr1RDJsKiIyBzJDpCoXiWWq28MqH2cnQ==}
+    dev: false
+
+  /typescript@5.4.5:
+    resolution: {integrity: sha512-vcI4UpRgg81oIRUFwR0WSIHKt11nJ7SAVlYNIu+QpqeyXP+gpQJy/Z4+F0aGxSE4MqwjyXvW/TzgkLAx2AGHwQ==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+    dev: true

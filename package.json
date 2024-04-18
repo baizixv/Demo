@@ -19,6 +19,10 @@
   },
   "homepage": "https://github.com/baizixv/Demo#readme",
   "dependencies": {
-    "bai-utils": "^1.0.1"
+    "bai-utils": "^1.0.1",
+    "dayjs": "^1.11.10"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
   }
 }
