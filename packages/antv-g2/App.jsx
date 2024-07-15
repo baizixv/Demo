@@ -1,21 +1,24 @@
 import { Bar } from '@ant-design/plots'
 import React from 'react'
+import { orderList } from './datas/orders'
+
+const value = []
 
 const data = [
   {
-    labelName: '蓝领',
+    labelName: '推广总数',
     value: 110,
   },
   {
-    labelName: '白领',
+    labelName: '有效总数',
     value: 220,
   },
   {
-    labelName: '制造业蓝领',
+    labelName: '跟进总数',
     value: 330,
   },
   {
-    labelName: '退休人员',
+    labelName: '异常总数',
     value: 440,
   },
 ]
